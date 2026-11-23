@@ -3,5 +3,11 @@ li a {
 }
 
 body {
-    background: white url("images/background.png") no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    background-color: white;
+    background-image: url("/static/polls/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
